@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Gemüse_Burger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gemüse-Burger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels-valeria-boltneva-1199960" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-valeria-boltneva-1199960.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_13_57_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 13.57.14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sushi_Burger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sushi Burger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_12_32_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 12.32.51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leberkäse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leberkäse.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vegane_Burger_Buns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vegane Burger-Buns.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Like" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Like.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trüffel_Käse_Girasoli_mit_Zucchinisalat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trüffel-Käse Girasoli mit Zucchinisalat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tofu_Burger_mit_Hummus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tofu-Burger mit Hummus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_10_55_00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 10.55.00.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BBQ_Pulled_Sweet_Potato_Burger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BBQ Pulled Sweet Potato Burger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frucht_paprika_kurkuma_smoothie_660269" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frucht-paprika-kurkuma-smoothie-660269.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_12_54_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 12.54.05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Filettopf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Filettopf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grünkern_Burger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grünkern-Burger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels_jonathan_borba_2983101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-jonathan-borba-2983101.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rhabarber_Reis_mit_Hähnchen___Kräuterjoghurt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rhabarber-Reis mit Hähnchen &amp; Kräuterjoghurt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_14_08_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 14.08.02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_15_06_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 15.06.28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_12_44_54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 12.44.54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_14_22_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 14.22.23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_15_25_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 15.25.36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image 2021-07-10 18.392" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 18.39.232.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hospitality-3793946_960_720" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hospitality-3793946_960_720.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Roulladen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rouladen-4-600x409.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Möhren_Sesam_Burger_mit_Avocado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Möhren-Sesam-Burger mit Avocado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spinat_Bacon_Burger_mit_Roter_Bet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spinat-Bacon-Burger mit Roter Bet.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spinat_Crespelle_mit_Schinkenwurst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spinat-Crespelle mit Schinkenwurst.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baerlauch_hummus_652693_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baerlauch-hummus-652693-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vegane_Süßkartoffel_Burger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vegane Süßkartoffel-Burger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carolyn-Cooking-Blog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carolyn-Cooking-Blog.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tofu_Polenta_Burger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tofu-Polenta-Burger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Collage 2021-06-28 15_59_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Collage 2021-06-28 15_59_41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pulled_Jackfruit_Burger_mit_Rotkohlsalat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pulled Jackfruit Burger mit Rotkohlsalat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels_jane_d_1092730" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-jane-d-1092730.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linguine_Carbonara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linguine Carbonara.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gemuese_linsen_eintopf_mit_erbsen_661997" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gemuese-linsen-eintopf-mit-erbsen-661997.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_13_31_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 13.31.32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_10_45_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 10.45.13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels_horizon_content_3915857" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-horizon-content-3915857.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Like_nottransparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Like_nottransparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tortellini_mit_Ricotta__Spinat___Walnüssen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tortellini mit Ricotta, Spinat &amp; Walnüssen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels_ella_olsson_1640777__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-ella-olsson-1640777 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grillkaese_halloumi_mit_wassermelone_56017" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grillkaese-halloumi-mit-wassermelone-56017.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fischburger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fischburger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Steakburger_mit_Rotkohl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Steakburger mit Rotkohl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pytt_i_panna_664817" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pytt-i-panna-664817.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image 2021-07-10 18.39.23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 18.39.23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels_ponyo_sakana_4193872" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-ponyo-sakana-4193872.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_13_20_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 13.20.19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reispfanne_1426" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reispfanne_1426.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ofenkartoffeln_mit_brokkoli_655738" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ofenkartoffeln-mit-brokkoli-655738.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_11_57_00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 11.57.00.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_12_21_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 12.21.16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_12_13_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 12.13.40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Collage 2021-06-28 15_59_411" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Collage 2021-06-28 15_59_411.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="African_Burger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\African Burger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_15_32_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 15.32.35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fisch_Burger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fisch_Burger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baby-775503_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baby-775503_640.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_11_01_54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 11.01.54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Butternut_Kürbis_Suppe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Butternut-Kürbis-Suppe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Meatballs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Meatballs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizza-3010062_1280" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza-3010062_1280.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Veganer_Cheeseburger_mit_Black_Bean_Patty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Veganer Cheeseburger mit Black Bean Patty.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bagels_mit_Frischkäse_und_Avocado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bagels mit Frischkäse und Avocado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vegetarisches_linsen_chili_mit_reis_653881" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegetarisches-linsen-chili-mit-reis-653881.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="registration-4226949_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\registration-4226949_640.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zebrakuchen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zebrakuchen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suesskartoffelsalat_650483" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\suesskartoffelsalat-650483.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gebackene_Mettbrötchen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gebackene Mettbrötchen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Haferflocken_Burger_mit_Rote_Bete_und_Walnüssen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Haferflocken Burger mit Rote Bete und Walnüssen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_13_13_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 13.13.17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image 2021-07-10 18.391" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 18.39.231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_13_02_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 13.02.08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_14_31_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 14.31.36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_14_56_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 14.56.48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pasta_mit_gruenem_spargel_tomaten_und_pinienkernen_42143_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pasta-mit-gruenem-spargel-tomaten-und-pinienkernen-42143-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels_valeria_boltneva_842571" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-valeria-boltneva-842571.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizzateig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizzateig.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sesamenoodle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sesamenoodle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vegane_linsen_pasta_mit_pesto_rosso_und_rucola_656528" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegane-linsen-pasta-mit-pesto-rosso-und-rucola-656528.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_15_20_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 15.20.51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image_2021_07_10_14_45_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image 2021-07-10 14.45.09.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spaghetti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spaghetti.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels-maarten-van-den-heuvel-2284166" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-maarten-van-den-heuvel-22841661.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-info-9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-info-9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beef_wellington_smarter_5921" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beef-wellington-smarter-5921.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biskuitteig_dinkelmehl_8863" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\biskuitteig-dinkelmehl-8863.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cottage_pie_mit_fleisch_und_gemuese_gefuellt_33983" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cottage-pie-mit-fleisch-und-gemuese-gefuellt-33983.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="forellen_vom_grill_42191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forellen-vom-grill-42191.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frozen_joghurt_mit_himbeeren_448530" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frozen-joghurt-mit-himbeeren-448530.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gegrillte_schweinefilets_5295" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gegrillte-schweinefilets-5295.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gegrillte_zitronen_kartoffeln_36543" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gegrillte-zitronen-kartoffeln-36543.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gemuese_couscous_mit_haehnchen_39839" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gemuese-couscous-mit-haehnchen-39839.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gemuese_couscous_mit_rinderfrikadellen_655599" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gemuese-couscous-mit-rinderfrikadellen-655599.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="geschmorte_lammhaxen_smarter_5891" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\geschmorte-lammhaxen-smarter-5891.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haehnchenfleisch_wuerstchen_spiesse_mit_gemuese_35143" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haehnchenfleisch-wuerstchen-spiesse-mit-gemuese-35143.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haehnchenschlegel_vom_grill_mit_kraeuterbutter_37083" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haehnchenschlegel-vom-grill-mit-kraeuterbutter-37083.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haehnchen_schnitzel_mit_nudeln_197493" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haehnchen-schnitzel-mit-nudeln-197493.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="himbeer_joghurt_eis_9025" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\himbeer-joghurt-eis-9025.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hirschgulasch_mit_schokolade_und_ofenmoehren_656927" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hirschgulasch-mit-schokolade-und-ofenmoehren-656927.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="holunderblueten_joghurt_eis_8783" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\holunderblueten-joghurt-eis-8783.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jighurt_brombeer_parfait_41785" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jighurt-brombeer-parfait-41785.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joghurteis_mit_beeren_322641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joghurteis-mit-beeren-322641.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joghurteis_mit_blaubeeren_321893" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joghurteis-mit-blaubeeren-321893.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joghurteis_mit_schokotropfen_117265" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joghurteis-mit-schokotropfen-117265.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kaeseomelett_mit_lachs_35281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kaeseomelett-mit-lachs-35281.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kalbsfilet_sizilianische_art_5567" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kalbsfilet-sizilianische-art-5567.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kalbsragout_kohlrabi_8089" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kalbsragout-kohlrabi-8089.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kalbsrahmgulasch_smarter_5577" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kalbsrahmgulasch-smarter-5577.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kalbsschnitzel_a_la_saltimbocca_7937" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kalbsschnitzel-a-la-saltimbocca-7937.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kalbsschnitzel_granatapfelsauce_5595" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kalbsschnitzel-granatapfelsauce-5595.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kuerbiskekse_668323" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kuerbiskekse-668323.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kurzrippensteak_vom_grill_39989" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kurzrippensteak-vom-grill-39989.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="labneh_670163" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\labneh-670163.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lammkeule_vom_grill_32359" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lammkeule-vom-grill-32359.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lamm_curry_mit_pflaumen_668061" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lamm-curry-mit-pflaumen-668061.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leichtes_joghurteis_mit_honig_38181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leichtes-joghurteis-mit-honig-38181.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="low_carb_pancakes_mit_banane_504119_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\low-carb-pancakes-mit-banane-504119-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meerrettich_schnitzel_4935_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meerrettich-schnitzel-4935-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nudeln_mit_haehnchen_tomatensauce_159745" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nudeln-mit-haehnchen-tomatensauce-159745.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orangen_lachs_mit_nussreis_448768_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\orangen-lachs-mit-nussreis-448768-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paprika_rindfleischpfanne_448298" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paprika-rindfleischpfanne-448298.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rinderfilet_kraeutergewuerzmantel_5631" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rinderfilet-kraeutergewuerzmantel-5631.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rindfleisch_wok_5617" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rindfleisch-wok-5617.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rouladen_marokkanische_art_5133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rouladen-marokkanische-art-5133.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="schweinefilet_pfanne_mit_gemuese_33385" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\schweinefilet-pfanne-mit-gemuese-33385.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="schweinerueckenbraten_5907" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\schweinerueckenbraten-5907.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seeteufel_spinat_paeckchen_653619" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seeteufel-spinat-paeckchen-653619.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spareribs_vom_grill_107535" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spareribs-vom-grill-107535.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spargel_klassisch_mit_entenbrust_660237" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spargel-klassisch-mit-entenbrust-660237.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="speck_zucchini_roellchen_mit_feta_fuellung_110115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\speck-zucchini-roellchen-mit-feta-fuellung-110115.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="steaks_salzbett_5629" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\steaks-salzbett-5629.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tandoori_lammgeschnetzeltes_6153" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tandoori-lammgeschnetzeltes-6153.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tortellini_auflauf_mit_schinken_und_fruehlingszwiebeln_454276" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tortellini-auflauf-mit-schinken-und-fruehlingszwiebeln-454276.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ueberbackene_kalbsschnitzel_5599" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ueberbackene-kalbsschnitzel-5599.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cottage_Pie_mit_Fleisch_und_Gemüse_gefüllt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cottage Pie mit Fleisch und Gemüse gefüllt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gefüllte_Kartoffeln_aus_dem_Ofen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gefüllte Kartoffeln aus dem Ofen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hackfleischauflauf_mit_Kartoffeln__Brokkoli_und_Blumenkohl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hackfleischauflauf mit Kartoffeln, Brokkoli und Blumenkohl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hackfleisch_Mais_Auflauf_mit_Paprika" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hackfleisch-Mais-Auflauf mit Paprika.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hacksteaks_auf_Bohnenauflauf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hacksteaks auf Bohnenauflauf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kartoffelgulasch_mit_Paprika" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kartoffelgulasch mit Paprika.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pasta_mit_Hackfleisch_Kräuter_Soße" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pasta mit Hackfleisch-Kräuter-Soße.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rindergulasch_mit_Kräutern" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rindergulasch mit Kräutern.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rotkrautrouladen_mit_Hackfüllung_dazu_Kartoffeln" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rotkrautrouladen mit Hackfüllung dazu Kartoffeln.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Schnelle_Gulaschsuppe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Schnelle Gulaschsuppe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Smartes_Rindergulasch_Grundrezept" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Smartes Rindergulasch Grundrezept.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gulaschsuppe_mit_Majoran" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gulaschsuppe mit Majoran.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
